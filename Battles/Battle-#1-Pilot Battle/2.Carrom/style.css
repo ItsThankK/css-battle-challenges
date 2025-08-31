@@ -1,0 +1,37 @@
+/*
+<div class="container">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+*/
+/* <style> */
+body {
+  background: #62374e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+}
+.container div {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #fdc57b;
+}
+.container div:nth-child(2) {
+  right: 0;
+}
+.container div:nth-child(3) {
+  bottom: 0;
+}
+.container div:last-child {
+  bottom: 0;
+  right: 0;
+}
+/* </style> */
