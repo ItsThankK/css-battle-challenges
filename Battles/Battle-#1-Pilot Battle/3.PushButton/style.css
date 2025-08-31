@@ -42,7 +42,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  zindex: 3;
+  z-index: 3;
 }
 .c3 {
   width: 50px;
