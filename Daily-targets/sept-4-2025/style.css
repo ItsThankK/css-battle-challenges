@@ -1,0 +1,17 @@
+/* <div></div> */
+/* <style> */
+  body {
+    background: #51A495;
+  }
+  div {
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    transform: rotate(45deg);
+    transform-origin: bottom left;
+    box-shadow: 62px -120px 0 0px #FFFFFF, 125px -183px 0 0px #FFFFFF, -57px -56px 0 0px #FFFFFF;
+  }
+/* </style> */
